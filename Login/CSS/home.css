@@ -1,0 +1,47 @@
+:root {
+    background-color: rgb(20,128,190);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.header {
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn-logout {
+    background-color: rgb(39,188,119);
+    border: 0;
+    width: 100px;
+    height: 40px;
+    color: antiquewhite;
+    font-weight: 900;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: 800ms; 
+    cursor: pointer;
+}
+
+#btn-logout:hover {
+    background-color: rgb(8, 180, 100);
+    width: 115px;
+    height: 45px;
+    font-size: 15px;
+
+    
+    box-shadow: 2px 6px rgb(28, 161, 99);
+
+    
+}
+
+#logo-serr {
+    width: 250px;
+}
